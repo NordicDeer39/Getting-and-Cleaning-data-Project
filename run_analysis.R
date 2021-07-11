@@ -10,9 +10,6 @@ download.file(fileurl, destfile = "./getcleandata/projectdataset.zip")
 unzip(zipfile = "./getcleandata/projectdataset.zip", exdir = "./getcleandata")
 
 #  Merge the training and test datasets
-
-#  Reading files
-
 #  Reading training datasets
 x_train <- read.table("./getcleandata/UCI HAR Dataset/train/X_train.txt")
 y_train <- read.table("./getcleandata/UCI HAR Dataset/train/y_train.txt")
@@ -59,9 +56,6 @@ setforMeanandStd <- finaldataset[ , mean_and_std == TRUE]
 
 #Use descriptive activity names
 setWithActivityNames <- merge(setforMeanandStd, activityLabels, by = "activityID", all.x = TRUE)
-
-# Label the data set with descriptive variable names
-#Creating a second,  independent set with the avg of each variable for each activity and subject
 
 #  Making a second tidy data set
 tidySet <- aggregate(. ~subjectID + activityID, setWithActivityNames, mean)
