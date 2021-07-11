@@ -6,5 +6,5 @@
 4. Appropriately labels the data set with descriptive variable names.<br />
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.<br />
 ## And...<br />
-CodeBook.md describes the variables, the data, and any transformations or work that you performed to clean up the data.<br />
-tidyData.txt is the output of the final step .<br />
+**CodeBook.md** describes the variables, the data, and any transformations or work that you performed to clean up the data.<br />
+**tidyData.txt** is the output of the final step .<br />
