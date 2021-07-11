@@ -2,7 +2,9 @@
 * In the downloaded dataset exist : x_train, y_train, x_test, y_test, subject_train and subject_test that contain the data.<br />
 * x_data, y_data, subject_data merge the previous datasets to further analysis.<br />
 * features contains the correct names for the x_data dataset, which are applied to the column names stored in.<br />
-
+<br />
+<br />
+<br />
 
 # Source Data: <br />
 The source data are from the Human Activity Recognition Using Samsung Galaxy S Smartphones Data Set. A full description is available at the site where the data was obtained:<br />
