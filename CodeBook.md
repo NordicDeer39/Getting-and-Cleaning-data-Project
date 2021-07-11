@@ -17,10 +17,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 # Description of R script:<br />
 1. Reading in the files and merging the training and the test sets to create one data set.<br />
    1.1 Reading following files:<br />
-   1.1.1 Training tabels.<br />
-   1.1.2 Testing tabels.<br />
-   1.1.3 Feature vector.<br />
-   1.1.4 Activity labels.<br />
+     1.1.1 Training tabels.<br />
+     1.1.2 Testing tabels.<br />
+     1.1.3 Feature vector.<br />
+     1.1.4 Activity labels.<br />
    1.2 Assigning variable names.<br />
    1.3 Merging all data in one set.<br />
 <br />
