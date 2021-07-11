@@ -1,4 +1,4 @@
-#use plyr,  R package, that makes it simple to split data apart, do stuff to it, and mash it back together:
+#use R package(plyr) that makes it simple to split data apart, do stuff to it, and mash it back together:
 library(plyr)
 # Download the dataset
 if(!file.exists("./getcleandata")){dir.create("./getcleandata")}
